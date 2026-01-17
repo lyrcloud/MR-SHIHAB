@@ -1,0 +1,78 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e3eaff;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.subtitle {
+  color: #666;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1rem 0;
+}
+nav a {
+  margin: 0 0.5rem;
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 2rem;
+}
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.skills h2 {
+  margin-top: 0;
+}
+.skill-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.skill-list li {
+  background: #e3eaff;
+  color: #2d3a4a;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+footer {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+  margin: 2rem 0 1rem 0;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mr-shihab-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site for M R Shihab, deployable to GitHub Pages or AWS S3/CloudFront.",
+  "scripts": {
+    "start": "npx serve .",
+    "deploy:gh": "echo 'Deploy to GitHub Pages: push to main branch'",
+    "deploy:aws": "echo 'Deploy to AWS S3/CloudFront using steps:.yaml workflow'"
+  },
+  "author": "M R Shihab",
+  "license": "MIT"
+}

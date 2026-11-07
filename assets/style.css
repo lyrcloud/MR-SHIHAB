@@ -16,11 +16,11 @@ header {
   width: 120px;
   height: 120px;
   object-fit: cover;
+  object-position: 40% 40%;
   border-radius: 50%;
   border: 3px solid #e3eaff;
   margin-bottom: 1rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-}
 }
 header h1 {
   margin: 0;
